@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Band component tests Renders correctly w snapshot 1`] = `
+<div>
+  <li>
+    wrm up band
+  </li>
+  <button
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;

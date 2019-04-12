@@ -1,8 +1,6 @@
 let idTracker = 1;
 
-export default function manageBand(state = {
-  bands: []
-}, action) {
+export default function manageBand(state = { bands: [] }, action) {
   switch (action.type) {
     case 'ADD_BAND':
       const band = { id: idTracker, name: action.name };
